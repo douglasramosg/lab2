@@ -1,0 +1,59 @@
+<section class="card">
+    <div class="card-body">
+        <h1>Inicio Superadmin</h1>
+        <p>Informacion de usuarios</p>
+    </div>
+    <div>
+        <div class="container-fluid px-4">
+                        <h1 class="mt-4" style="color: white">Dashboard</h1>
+                        <div class="row">
+                            <div class="col-xl-6 col-md-6">
+                                <div class="card bg-primary text-white mb-4">
+                                    <div class="card-body text-center">Usuarios Registrados</div>
+                                    <div class="card-footer d-flex align-items-center justify-content-between">
+                                        <a class="small text-white stretched-link" href="dashboardSuperadminUsuarios"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-md-6">
+                                <div class="card bg-success text-white mb-4">
+                                    <div class="card-body text-center">Tipo de usuario</div>
+                                    <div class="card-footer d-flex align-items-center justify-content-between">
+                                        <a class="small text-white stretched-link" href="dashboardSuperadminMaterias"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-6">
+                            </div>
+                        </div>
+                        <div class="card mb-4">
+                            <div class="card-header">
+                                <i class="fas fa-table me-1"></i>
+                                Datos Generales
+                            </div>
+                            <div class="card-body">
+                                <table class="table table-bordered">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">Código</th>
+                                        <th scope="col">Nombre Estudio</th>
+                                        <th scope="col">Programar cita</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                   
+                                        <tr>
+                                          <th scope="row">{{mat[0]}}</th>
+                                          <td>{{mat[1]}}</td>
+                                          <td>{{mat[2]}}</td>
+                                        </tr>
+                                    
+                                    </tbody>
+                                  </table>
+                            </div>
+                        </div>
+                    </div>
+    </div>
+</section>

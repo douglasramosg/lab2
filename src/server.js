@@ -59,6 +59,7 @@ app.use((req, res, next) => {
 //routes
 app.use(require("./routes/index.routes"));
 app.use(require("./routes/user.routes"));
+app.use(require("./routes/profile.routes"));
 
 
 //static files
